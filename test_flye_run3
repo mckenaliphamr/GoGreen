@@ -1,0 +1,30 @@
+#!/bin/bash --login
+
+# Flye_test.sb
+
+#SBATCH --time=0-72:00:00             # limit of wall clock time - how long the job will run (same as -t)
+#SBATCH --nodes=4                   # number of different nodes - could be an exact number or a range of nodes (same as -N)
+#SBATCH --ntasks-per-node=12                  # number of tasks - how many tasks (nodes) that you require (same as -n)
+#SBATCH --mem=200G            # memory required per allocated CPU (or core) - amount of memory (in bytes)
+#SBATCH --job-name Arabidopsis_Flye_test      # you can give your job a name for easier identification (same as -J)
+
+
+################################################################################
+
+# Flye documentation
+# Manual: https://github.com/fenderglass/Flye/blob/flye/docs/USAGE.md#quickusage
+
+
+################################################################################
+cd /mnt/home/getti014/FinalProject
+
+module purge
+module use /mnt/home/johnj/software/modulefiles # load software from John Johnston's private module collection
+module load Flye/2.4.2
+
+
+flye \
+--pacbio-raw /mnt/scratch/getti014/Arabidopsis_reads/Arabidopsis.fastq.gz \
+--out-dir /mnt/scratch/getti014 \
+--genome-size 135m \
+--threads 12
