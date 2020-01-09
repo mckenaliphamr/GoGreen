@@ -5,3 +5,4 @@
 
 A third, separate ~deleted~. E
 Let's now say that somebody else modify this file. 
+Adding in some info (Beth): I have tried to install Git locally on my computer, but have been unsucessful. I have played around on the github website and feel comfortable with making branches and submitting pull requests. 
