@@ -7,6 +7,7 @@ This is pretty useful and straight forward. https://dont-be-afraid-to-commit.rea
 git checkout BRANCH_NAME
 git add
 git commit -m "every commit needs a message"
+git push origin BRANCH_NAME
 git checkout master
 git fetch
 git merge origin/master
