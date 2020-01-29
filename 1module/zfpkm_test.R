@@ -15,3 +15,7 @@ zfpkm <- zFPKM(MyFPKMdf)
 zFPKMPlot(MyFPKMdf)
 
 zfpkm[which(zfpkm > 3, arr.ind = TRUE)]
+
+fpkmLog2 <- log(MyFPKMdf[, 1], base=2)
+d <- density(fpkmLog2)
+mu <- d[["x"]][which.max(d[["y"]])]
