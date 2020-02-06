@@ -8,7 +8,8 @@ Task 1: Discover the genes that are most differentially expressed across the Wis
 
    Previous studies by Hart et. al. (2013) and Wagner et. al (2012), delineate the importance of standardizing RNA-seq gene expression data. Our group chose to convert the denoted FPKM values to TPM values in order to account for gene length and sequencing depth. To normalize the TPM values across genes within each cultivar, Z score was calculated. To determine which genes were differentially expressed, the variance of zTPM scores across the 942 lines was calculated for each gene. The genes with a variance score of 45 and above were selected. This group represents the top 1.5% of genes in the initial dataset. 
    
-   SNPs found within the 1.5% of genes were placed into a separate matrix. 
+   SNPs found within subset represented 0.45% of the original SNP matrix. This subset of data was then analyzed with MatrixeQTL in order to determine the SNPs most highly correlated to the gene expression values. 
+   
  
 - I just edited this markdown (Erik)
 - A second edition, now done locally from my PC (Erik)
