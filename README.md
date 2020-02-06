@@ -2,7 +2,7 @@
 ## Zhongjie, Erik, Beth, and McKena
 ### Group A
 
-### Research question: What SNPs may be responsible for differential expression in the Wisconsin Diversity Panel. 
+### Research question: What SNPs may be responsible for differential expression in the Wisconsin Diversity Panel? 
 
 Task 1: Discover the genes that are most differentially expressed across the Wisconsin Diversity Panel 
 
