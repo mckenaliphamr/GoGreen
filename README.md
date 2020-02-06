@@ -10,7 +10,7 @@ Task 1: Discover the genes that are most differentially expressed across the Wis
    
    SNPs found within the subset of high differential expression represent 0.45% of the original SNP matrix. This subset of data was then analyzed with MatrixeQTL in order to determine the SNPs most highly correlated to the gene expression values.
    
-Flow
+_Experimental Flow_
 
 - FPKM --> TPM
 - TPM --> zTPM
