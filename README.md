@@ -1,5 +1,9 @@
 # GoGreen
+## Zhongjie, Erik, Beth, and McKena
+### Group A
 
+### Research question: What SNPs may be responsible for differential expression in the Wisconsin Diversity Panel. 
+Discover the genes that are most differentially expressed across the Wisconsin Diversity Panel 
 - I just edited this markdown (Erik)
 - A second edition, now done locally from my PC (Erik)
 
