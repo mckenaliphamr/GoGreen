@@ -10,7 +10,7 @@ Task 1: Discover the genes that are most differentially expressed across the Wis
 
 Task 2: Run eQTL to determine correlated SNPs
 
-   SNPs found within the subset of high differential expression represent 0.45% of the original SNP matrix. This subset of data was then analyzed with MatrixeQTL in order to determine the SNPs most highly correlated to the gene expression values.
+   SNPs found within the subset of high differential expression represent 0.45% of the original SNP matrix. Tassel was utilized to convert the SNP matrix to numerical genotypes. This subset of data was then analyzed with MatrixeQTL in order to determine the SNPs most highly correlated to the gene expression values.
    
 _Experimental Flow_
 
@@ -19,6 +19,7 @@ _Experimental Flow_
 - Variance of zTPM
 - Top 1.5% of variance scores
 - Isolate SNPs within top 1.5% of genes
+- Convert SNPs to numerical genotype
 - Run MatrixeQTL
  
 
