@@ -24,3 +24,5 @@ _Experimental Flow_
  
 
 Each analysis was tested utilizing a dataset containing SNPs and RNAseq expression from chromosome 10. These smaller dataframes can be found in the folder labeled "sample_data"
+
+The 1module folder contains all of the separate notebooks as well as a master notebook labeled .ipynb checkpoints. Additionally each file utiziled for Matrix eQTL including R code are given. 
