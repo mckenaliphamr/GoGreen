@@ -26,3 +26,10 @@ _Experimental Flow_
 Each analysis was tested utilizing a dataset containing SNPs and RNAseq expression from chromosome 10. These smaller dataframes can be found in the folder labeled "sample_data"
 
 The 1module folder contains all of the separate notebooks as well as a master notebook labeled .ipynb checkpoints. Additionally each file utiziled for Matrix eQTL including R code are given. 
+
+## References
+Hart, T., Komori, H. K., LaMere, S., Podshivaloava, K., & Salomon, D. R. (2013). Finding the active genes in deep RNA-seq gene expression studies. BMC Genomics, 14, 778-784.
+
+Shabalin, A.A. (2012). Matrix eQTL: ultra fast eQTL analysis via large matrix operations. Bioinformatics, 28(10), 1353-1358. 
+
+Wagner, G. P., Kin, K., & Lynch, V. J. (2012). Measurement of mRNA abundance using RNA-seq data: RPKM measure is inconsistent among samples. Theory Biosci, 131, 281-285. 
