@@ -23,4 +23,4 @@ _Experimental Flow_
 - Run MatrixeQTL
  
 
-NEED TO ADD CITATIONS FOR PAPERS LISTED IN FIST PARAGRAPH
+Each analysis was tested utilizing a dataset containing SNPs and RNAseq expression from chromosome 10. These smaller dataframes can be found in the folder labeled "sample_data"
