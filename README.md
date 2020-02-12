@@ -19,8 +19,8 @@ _Experimental Flow_
 - Variance of zTPM
 - Top 1.5% of variance scores
 - Isolate SNPs within top 1.5% of genes
-- Convert SNPs to numerical genotype
-- Run MatrixeQTL
+- Convert SNPs to numerical genotype using Tassel
+- Run MatrixeQTL in R
  
 
 Each analysis was tested utilizing a dataset containing SNPs and RNAseq expression from chromosome 10. These smaller dataframes can be found in the folder labeled "sample_data"
